@@ -1,0 +1,8 @@
+pandas>=3.0
+pyarrow>=20
+networkx>=3
+catboost>=1.2
+scikit-learn>=1.5
+matplotlib
+jupyter
+pytest

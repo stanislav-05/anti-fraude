@@ -1,0 +1,16 @@
+# данные в git не кладём, только пустые папки
+data/raw/*
+!data/whitelist.txt
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# результаты EDA пересоздаются командой python -m src.eda
+reports/
